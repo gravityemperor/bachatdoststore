@@ -1,0 +1,167 @@
+/*
+ Theme Name: Th-Store
+ Theme URI: https://themehunk.com/product/th-store/
+ Author: ThemeHunk
+ Author URI: https://www.themehunk.com
+ Description: Th-store is a wonderful child theme of Big store and Big store pro. It is Best suited for websites like gadget store, home appliances site, fashion shop, furniture, jewelry shop, electronic, food, grocery, clothing etc. Theme is deeply integrated with WooCommerce plugin to sell your products online. Theme has many sections along with Header and footer layout combinations, Color and Background option and other customizing options.
+ Version: 1.0.2
+ Requires at least: 5.3
+ Tested up to: 5.7
+ Requires PHP: 5.3
+ Template:     big-store
+ Version:      1.0.0
+ Text Domain:  th-store
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: e-commerce, blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-image-header, featured-images, custom-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, threaded-comments, custom-colors 
+*/
+
+
+article.thunk-post-article{
+width: 49%;
+    float: left;
+    clear: none;
+    margin-right: 2%;
+-webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 3%);
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 3%);   
+padding:1.2rem;
+border-radius:4px;
+}
+article.thunk-post-article:nth-child(2n+2) {
+ margin-right:0;
+}
+.thunk-post-img-wrapper img{
+border-radius:4px;}
+
+article.thunk-post-article .thunk-readmore.button{
+background:#ffd200;
+color:#fff!important;
+}
+p.read-more {
+    margin-bottom:0;
+}
+
+/*product style*/
+.thunk-woo-product-list,.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+text-align:center;
+}
+.woocommerce .thunk-product-content .star-rating{
+margin: auto;
+margin-bottom:0.5rem;
+}
+.thunk-woo-product-list .woocommerce-loop-product__title a, .thunk-cat-title a,
+.woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+ .woocommerce ul.products li.product h3{
+font-size: 0.9rem;
+}
+.thunk-product-hover {
+    display: inline-flex;
+}
+
+.woocommerce .thunk-product-hover a.add_to_cart_button, .woocommerce .thunk-product-hover .thunk-wishlist a.add_to_wishlist, .thunk-wishlist .yith-wcwl-wishlistaddedbrowse, .thunk-wishlist .yith-wcwl-wishlistexistsbrowse, .thunk-compare .compare-button a.compare.button, .woocommerce .thunk-product-hover .button.th-button, .woocommerce ul.products li.product .button, .thunk-product-hover .thunk-quickview a,
+.thunk-product .woosw-btn, .woosw-btn, .thunk-product .wooscp-btn, .wooscp-btn{
+border-radius:50%;
+background:#fff;
+border:1px solid #eee;
+}
+.woocommerce .thunk-product-hover .button.th-button::before, 
+.thunk-product-hover .button.product_type_simple::before, 
+.thunk-product-hover .button.product_type_variable::before, 
+.thunk-product-hover .buttonproduct_type_external::before,
+.woocommerce .thunk-product-hover a.add_to_cart_button.ajax_add_to_cart::before,
+.thunk-product .yith-wcwl-wishlistexistsbrowse:before, 
+.thunk-product .yith-wcwl-wishlistaddedbrowse:before, 
+.thunk-product .woosw-btn:before,.thunk-product .wooscp-btn:before, 
+.wooscp-btn:before,a.opn-quick-view-text::before{
+font-size:14px;
+}
+.woocommerce .thunk-woo-product-list .price{
+font-size:15px;
+margin-bottom:0.8rem!important;
+ left: 0;
+    right: 0;
+
+}
+
+.woocommerce .thunk-woo-product-list .thunk-list .price:before,
+.woocommerce-page .thunk-list-view ul.products li.product .price:before,
+.thunk-woo-product-list .summary.entry-summary .price:before {
+    content: '';
+    display: block;
+    width: 0;
+    height:0;
+    background-color:none;
+    margin: auto;
+    margin-bottom:0rem;
+ }
+
+.woocommerce .thunk-woo-product-list .price:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #111;
+    margin: auto;
+    margin-bottom:0.7rem;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.woocommerce .thunk-product:hover .price:before{
+width: 100px;
+}
+.thunk-woo-product-list .woocommerce-loop-product__title{
+margin-bottom: 0.7rem;
+}
+.woocommerce-page .thunk-list-view ul.products li.product{
+text-align:left;	
+}
+.woocommerce .thunk-list-view ul.products li.product .price{
+	margin-bottom:0!important;
+}
+
+
+/* Contact Form 7    */
+div.wpcf7{
+background-color:#fff;
+padding:45px;
+max-width:550px;
+margin:0 auto!important;
+-webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0,0.2);
+}
+div.wpcf7 label{
+text-align:left!important;
+color:#333;
+}
+.wpcf7-text, .wpcf7-textarea, .wpcf7-captchar {
+background-color: #ddd !important;
+border: none !important;
+width: 100% !important;
+font-size: 14px;
+color: #333 !important;
+padding: 15px !important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.wpcf7-textarea{
+height:120px
+}
+.wpcf7-submit {
+float:left;
+width:100%;
+display:inline-block;
+color: #eee !important;
+margin: 8px auto 0!important;
+cursor: pointer;
+font-size: 16px;
+-moz-border-radius: 5px!important;
+-webkit-border-radius: 5px!important;
+border-radius: 5px!important;
+padding: 20px 40px!important;
+line-height: 1.6em;
+background: #ed9d25!important;
+border: 2px solid!important ;
+}

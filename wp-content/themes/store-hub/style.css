@@ -1,0 +1,551 @@
+/*
+Theme Name: Store Hub
+Theme URI: https://wpoperation.com/themes/store-hub/
+Template: wpparallax
+Author: WPoperation
+Author URI: https://wpoperation.com/
+Description: Store Hub is complete perfect WordPress theme for E-Commerce, Online Shops and E-Business Websites. The Theme is fully compatible with Elementor Drag and Drop Builder Plugin so that you can easily create your website as perfered Layout. Store Bub is compatible with  YITH WooCommerce Wishlist, YITH WooCommerce Compare, WooCommerce Variation Swatches and other popular plugins. The Theme has other extra features such as Multiple Header Option,Sidebar Options,Unlimited Color options,Custom Widgets and Many More. Theme is carefully designed to focus the need and features for ecommerce websites.
+Text Domain: store-hub
+Tags: right-sidebar,left-sidebar,custom-background,custom-menu,featured-images,threaded-comments,translation-ready,custom-logo,footer-widgets,blog,post-formats,sticky-post,theme-options,news,editor-style,custom-header,e-commerce
+Version: 1.0.5
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 5.6.2
+License:      GNU General Public License, version 3 (GPLv3)
+License URI:  http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+Store Hub is Child Theme Of wpparallax.
+
+Store hub is a WordPress Theme, 
+Copyright (C) 2019, WPoperation
+Store hub is distributed under the terms of the GNU GPL
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+*/
+
+/* header style */
+.site-header.wpop-inner.store-header{
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ebebeb;
+}
+header.store-header .top-header{
+    background: #000;
+}
+header.store-header .top-header .top-header-wrap{
+  width: 100%;
+}
+header.store-header .main-navigation ul ul {
+  top: 65px;
+}
+header.store-header .wpop-container,
+header.store-header .header-main-top,
+header.store-header .contact-info-wrapp,
+header.store-header .header-shop-icons,
+header.store-header .site-branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+header.store-header .wpop-shopping-cart svg {
+    height: 20px;
+    width: 20px;
+}
+header.store-header .wpop-shopping-cart {
+    padding: 0;
+}
+header.store-header .site-description{
+  color: #333;
+}
+header.store-header #site-navigation ul li a{
+  color: #333;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 20px;
+}
+header.store-header .main-navigation ul ul{
+  background: #FFF;
+}
+header.store-header #site-navigation ul li ul a{
+  font-size: 14px;
+}
+
+header.store-header .search-wrapp form {
+    position: relative;
+}
+header.store-header .search-wrapp form .search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header.store-header .search-wrapp{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: auto;
+    max-width: 425px;
+    margin-bottom: 0;
+}
+
+header.store-header .header-shop-icons {
+     -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+header.store-header .header-main-left-wrapp {
+    width: 80%;
+    padding-top: 30px;
+}
+header.store-header .site-branding {
+    width: 20%;
+    border-right: 1px solid #ebebeb;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+header.store-header .contact-info-wrapp {
+    padding: 0 25px;
+}
+
+header.store-header .info.info2 {
+    margin-left: 40px;
+}
+header.store-header .info.info2 .info-inner {
+    border-left: 1px solid #ebebeb;
+    padding-left: 30px;
+}
+
+header.store-header .header-main-top {
+    margin-left: 40px;
+}
+
+header.store-header input[type="search"]{
+  border: 2px solid #ebebeb;
+}
+header.store-header .info .info-inner span {
+    font-size: 12px;
+    color: #888;
+    font-weight: 700;
+    line-height: 1;
+    display: block;
+    margin-top: 10px;
+}
+header.store-header .info .info-inner h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    display: block;
+    color: #000;
+}
+
+header.store-header .main-navigation{
+  width: 100%;
+}
+
+header.store-header .header-shop-icons > div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.login-signup a,.wishlist a{
+  color: #333;
+  font-size: 24px;
+}
+header.store-header .wpop-shopping-cart svg {
+    height: 25px;
+    width: 25px;
+}
+/* Shop Page Styles */
+.woocommerce .summary .woocommerce-breadcrumb a,body.woocommerce .summary .woocommerce-breadcrumb{
+  color: #000;
+}
+.woocommerce ul.products li figure {
+    position: relative;
+    margin-bottom: 0;
+}
+ul.products li.product .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+ul.products li.product .icons a {
+  transform: translateY(20px);
+  transition: all 200ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 0ms;
+}
+ul.products li.product .icons a:nth-child(2) {
+  transition-delay: 100ms;
+}
+ul.products li.product .icons a:nth-child(3) {
+  transition-delay: 200ms;
+}
+ul.products li.product .icons a:nth-child(4) {
+  transition-delay: 300ms;
+}
+
+ul.products li.product:hover .icons a {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+ul.products li.product:hover .icons a:nth-child(2) {
+  transition-delay: 100ms;
+}
+ul.products li.product:hover .icons a:nth-child(3) {
+  transition-delay: 200ms;
+}
+ul.products li.product:hover .icons a:nth-child(4) {
+  transition-delay: 300ms;
+}
+ul.products li.product .icons a {
+    background-color: #fff;
+    color: #657AD0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 5px;
+}
+.icons a svg{
+	width: 20px;
+	height: 20px;
+	fill: #000;
+}
+
+ul.products li.product .icons a:first-child {
+  margin: 0;
+}
+ul.products li.product .icons a:hover {
+  background-color: #000;
+  width: 55px;
+}
+ul.products li.product .icons a:hover svg{
+  fill: #fff;
+}
+ul.products li.product .icons a.added_to_cart:hover{
+  color: #657AD0;
+
+}
+.woocommerce ul.products li .woo-content a.button,
+body.woocommerce ul.products li .woo-content a.added_to_cart{
+    position: relative;
+    text-transform: uppercase !important;
+    color: #000 !important;
+    background: none !important;
+    font-size: 14px !important;
+    margin-top: 15px;
+    padding: 0 !important;
+    display: inline-block;
+    transform: translateY(25px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    overflow: initial !important;
+}
+.woocommerce ul.products li .woo-content a.button:after,
+body.woocommerce ul.products li .woo-content a.added_to_cart:after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    height: 2px;
+    background-color: #657AD0 !important;
+    margin-top: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.woocommerce ul.products li:hover .woo-content a.button,
+body.woocommerce ul.products li:hover .woo-content a.added_to_cart{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    color: #000 !important;
+}
+
+.woocommerce ul.products li .woo-content a.button:hover:after,
+body.woocommerce ul.products li .woo-content a.added_to_cart:hover:after{
+    animation: btnanimation 2s infinite;
+}
+@keyframes btnanimation{
+    0%{
+        left: 0;
+        right: 0;
+    }
+    33%{
+        left: 100%;
+        right: 0;
+    }
+    66%{
+        left: 0%;
+        right: 100%;
+    }
+    100%{
+        left: 0;
+        right: 0;
+    }
+}
+
+.woo-content .yith-wcqv-button{
+	display: none !important;
+}
+.woocommerce .summary.entry-summary {
+    margin-top: 0;
+}
+.woocommerce div.product div.images .flex-control-thumbs{
+  margin-top: 20px;
+}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+  margin-right: 10px;
+}
+.woocommerce ul.products.product-slide .slick-dots {
+  bottom: 0 !important;
+}
+/* Product Flip */
+.store-thumb-wrapp {
+    position: relative;
+}
+ul.products .product.outofstock .store-thumb-wrapp.flip {
+  opacity: 0.5;
+}
+
+li.product .store-img-after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+li.product figure .store-img-after,
+li.product figure .store-img-before {
+  transition: all 400ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.products li.product .store-thumb-wrapp.flip .store-img-before,
+ul.products li.product .store-thumb-wrapp.flip .store-img-after {
+  transition: all 400ms ease-in-out;
+}
+ul.products li.product:hover .store-thumb-wrapp.flip .store-img-before,
+ul.products li.product .store-thumb-wrapp.flip .store-img-after {
+  opacity: 0;
+}
+
+ul.products li.product:hover .store-thumb-wrapp.flip .store-img-after {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+/* Offcanvas cart */
+
+.off-canvas-cart{
+    transition: all 400ms ease-in-out;
+}
+.off-canvas-cart {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 999;
+    right: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.off-canvas-cart.show{
+    left: 0px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.off-canvas-cart .shopping-list-wrap {
+    max-height: none;
+    height: 100vh;
+    width: 360px;
+    float: right;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 3;
+    transform: translateX(240px);
+    transition: all 400ms ease-in-out;
+    opacity: 0;
+}
+.off-canvas-cart.show .shopping-list-wrap{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.woocommerce .off-canvas-cart ul.product_list_widget li img{
+    width: 100%;
+    margin: 0px;
+}
+
+.woocommerce .off-canvas-cart ul.product_list_widget li figure img{
+    width: 100%;
+    margin: 0px;
+}
+
+.woocommerce .off-canvas-cart ul.product_list_widget li figure a {
+    display: inline-block;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.woocommerce .off-canvas-cart ul.product_list_widget li{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.woocommerce-mini-cart__total.total {
+    display: inline-block;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.woocommerce ul.product_list_widget li .opstore-mini-cart-title h6 a{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.woocommerce .widget_shopping_cart_content a.remove{
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 0.9;
+}
+
+.woocommerce .off-canvas-cart .off-canvas-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+}
+.off-canvas-cart p.woocommerce-mini-cart__buttons.buttons a.button{
+  margin-right: 5px;
+}
+.off-canvas-cart p.woocommerce-mini-cart__buttons.buttons a.button.checkout.wc-forward{
+  margin-right: 0;
+}
+/* responsive mobile */
+
+@media only screen and (max-width: 768px){
+  header.store-header .header-main-top,.top-header {
+    display: none;
+  }
+  header.store-header ul.sub-menu li{
+    border: none;
+  }
+  header.store-header .mob-outer-wrapp .wpparallax-mob-menu ul ul.sub-menu{
+    padding-left: 30px;
+  }
+  header.store-header .mob-outer-wrapp .wpparallax-mob-menu ul ul.sub-menu li{
+    width: 90%;
+    padding: 15px;
+  }
+  
+  header.store-header .wpop-container > .site-branding{
+    display: none;
+    border: none;
+  }
+  header.store-header .header-main-left-wrapp{
+    width: 100%;
+  }
+  header.store-header .mob-outer-wrapp{
+    width: 100%;
+    background: #FFF;
+  }
+  span.menu-toggle, span.menu-toggle:before, span.menu-toggle:after{
+    background-color: #333;
+  }
+  header.store-header .wpop-container{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+ 
+  header.store-header .mob-outer-wrapp .toggle-wrapp{
+    margin: 0;
+  }
+  header.store-header .mob-outer-wrapp .wpparallax-mob-menu ul {
+    padding: 0;
+    margin: 0;
+}
+header.store-header .mob-outer-wrapp .wpop-container > .site-branding{
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+header.store-header .mob-outer-wrapp .mob-icons-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+header.store-header .mob-outer-wrapp .mob-icons-wrapp > div:not(:last-child) {
+    padding-right: 15px;
+}
+
+}
+
+@media (max-width: 481px) { 
+    .off-canvas-cart .shopping-list-wrap {
+        width: 310px;
+    }
+}
+@media (max-width: 360px){
+    .off-canvas-cart .shopping-list-wrap {
+        width: 275px;
+    }
+}
+
+.inner-container p {
+    word-break: break-word;
+}

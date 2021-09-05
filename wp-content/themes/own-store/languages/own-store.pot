@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-08-30 22:50+0530\n"
+"PO-Revision-Date: 2021-08-30 22:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: ;__;_e;esc_html;esc_html__;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:35
+msgid ""
+"You need to update your PHP version to a minimum of 5.6 to run Own Store "
+"WordPress Theme."
+msgstr ""
+
+#: functions.php:38
+msgid "Actual version is:"
+msgstr ""
+
+#: functions.php:40
+msgid "required is"
+msgstr ""
+
+#: functions.php:159
+msgid "Topbar Sidebar"
+msgstr ""
+
+#: functions.php:161
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer/customizer.php:26 inc/starter-content.php:689
+msgid "Category Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Category Menu Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:62
+msgid "Show Category Menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:80 inc/customizer/customizer.php:104
+msgid "Category Menu Heading"
+msgstr ""
+
+#: inc/customizer/customizer.php:93 inc/template-functions.php:68
+msgid "Browse Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:120
+msgid ""
+"To show the menu, Please first create a new menu ( Appearance -> Menus ) and "
+"then set its display location to \"Category Menu\". You can create a menu up "
+"to 3 nested levels."
+msgstr ""
+
+#: inc/header-menu/content-style1.php:16
+msgid "Skip to content"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:40
+msgid "logo"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:86 inc/header-menu/content-style1.php:173
+#: inc/header-menu/content-style1.php:228
+msgid "primary"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:94 inc/header-menu/content-style1.php:180
+#: inc/header-menu/content-style1.php:235
+msgid "MENU"
+msgstr ""
+
+#: inc/header-menu/content-style1.php:96 inc/header-menu/content-style1.php:182
+#: inc/header-menu/content-style1.php:237
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/starter-content.php:20
+msgid "Gutenberg Home"
+msgstr ""
+
+#: inc/starter-content.php:251
+msgid "Furniture Image"
+msgstr ""
+
+#: inc/starter-content.php:436
+msgid "About"
+msgstr ""
+
+#: inc/starter-content.php:455 inc/starter-content.php:652
+msgid "About Us"
+msgstr ""
+
+#: inc/starter-content.php:475
+msgid "Gallery Image 1"
+msgstr ""
+
+#: inc/starter-content.php:485
+msgid "Gallery Image 2"
+msgstr ""
+
+#: inc/starter-content.php:491
+msgid "Gallery Image 3"
+msgstr ""
+
+#: inc/starter-content.php:542
+msgid "Contact"
+msgstr ""
+
+#: inc/starter-content.php:601
+msgid "Contact Us"
+msgstr ""
+
+#: inc/starter-content.php:622
+msgid "WooCommerce WordPress theme"
+msgstr ""
+
+#: inc/starter-content.php:627
+msgid "Featured Logo"
+msgstr ""
+
+#: inc/starter-content.php:650
+msgid "Quick Links"
+msgstr ""
+
+#: inc/starter-content.php:653
+msgid "Why Own Store"
+msgstr ""
+
+#: inc/starter-content.php:654
+msgid "Customer Reviews"
+msgstr ""
+
+#: inc/starter-content.php:655
+msgid "Support"
+msgstr ""
+
+#: inc/starter-content.php:656
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/starter-content.php:657
+msgid "Terms & Conditions"
+msgstr ""
+
+#: inc/starter-content.php:669
+msgid "footer logo"
+msgstr ""
+
+#: inc/starter-content.php:680
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-info.php:136
+msgid "About Own Store Theme"
+msgstr ""
+
+#: inc/theme-info.php:136
+msgid "Own Store Info"
+msgstr ""
+
+#: inc/theme-info.php:136
+msgid "own-store-theme-info"
+msgstr ""
+
+#: inc/theme-info.php:136
+msgid "own_store_theme_info"
+msgstr ""
+
+#: inc/theme-info.php:149
+msgid "Thank you for using Own Store Free WordPress theme"
+msgstr ""
+
+#: inc/theme-info.php:151
+msgid ""
+"Own Store is an easy and customizable WooCommerce WordPress theme. A "
+"complete solution for your ecommerce project including customized cart and "
+"checkout pages. You can use this theme for your ecommerce projects with "
+"ease, best fit for the Furnitures, Clothing, Gaming, Groceries, Electronics, "
+"Tech Stores etc. Own Store is compatible with both the WooCommerce GUTENBERG "
+"blocks and ELEMENTOR page builder. Theme is SEO friendly, RTL Ready and "
+"TRANSLATION ready too. Discover more by using this time in your projects and "
+"do not forget to read the DOCUMENTATION first. Our team is also ready to "
+"answer all of your SUPPORT questions."
+msgstr ""
+
+#: inc/theme-info.php:163
+msgid "VIEW DEMO"
+msgstr ""
+
+#: inc/theme-info.php:173
+msgid "VIEW DOCUMENTATION"
+msgstr ""
+
+#: inc/theme-info.php:183
+msgid "VIDEO TUTORIALS"
+msgstr ""
+
+#: inc/theme-info.php:193
+msgid "ASK FOR SUPPORT"
+msgstr ""
+
+#: inc/theme-info.php:204
+msgid "RATE OUR THEME"
+msgstr ""
+
+#: inc/theme-info.php:214
+msgid "VIEW CHANGELOGS"
+msgstr ""
+
+#: inc/theme-info.php:223
+msgid "Why should you Upgrade to our PRO Addon ?"
+msgstr ""
+
+#: inc/theme-info.php:228
+msgid "Feature"
+msgstr ""
+
+#: inc/theme-info.php:229
+msgid "Own Store Free"
+msgstr ""
+
+#: inc/theme-info.php:230
+msgid "Pro Addon Plugin"
+msgstr ""
+
+#: inc/theme-info.php:235
+msgid "Favicon, Logo, Title and Tagline Customization"
+msgstr ""
+
+#: inc/theme-info.php:240
+msgid "Customizer Theme Options"
+msgstr ""
+
+#: inc/theme-info.php:245
+msgid "2 Custom Widgets"
+msgstr ""
+
+#: inc/theme-info.php:250
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/theme-info.php:255
+msgid "Product Category Menu"
+msgstr ""
+
+#: inc/theme-info.php:260
+msgid "Menu Cart"
+msgstr ""
+
+#: inc/theme-info.php:265
+msgid "2 Layout Settings"
+msgstr ""
+
+#: inc/theme-info.php:270
+msgid "Top Bar"
+msgstr ""
+
+#: inc/theme-info.php:275
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-info.php:280
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/theme-info.php:285
+msgid "RTL Support"
+msgstr ""
+
+#: inc/theme-info.php:290
+msgid "Sidebar Options (Full, Left and Right)"
+msgstr ""
+
+#: inc/theme-info.php:295
+msgid "Gutenberg Compatible"
+msgstr ""
+
+#: inc/theme-info.php:300
+msgid "1 Click Demo Import"
+msgstr ""
+
+#: inc/theme-info.php:305
+msgid "Color Settings"
+msgstr ""
+
+#: inc/theme-info.php:306
+msgid "Limited"
+msgstr ""
+
+#: inc/theme-info.php:307
+msgid "Extended"
+msgstr ""
+
+#: inc/theme-info.php:310
+msgid "Light and Dark Mode"
+msgstr ""
+
+#: inc/theme-info.php:315
+msgid "800+ Google Fonts"
+msgstr ""
+
+#: inc/theme-info.php:320
+msgid "Social Sharing Icons"
+msgstr ""
+
+#: inc/theme-info.php:325
+msgid "Author Details in Single Post"
+msgstr ""
+
+#: inc/theme-info.php:330
+msgid "Author Widget with Social Icons"
+msgstr ""
+
+#: inc/theme-info.php:336
+msgid "WooCommerce Extra Settings"
+msgstr ""
+
+#: inc/theme-info.php:341
+msgid "Products Wishlist"
+msgstr ""
+
+#: inc/theme-info.php:346
+msgid "Products Compare"
+msgstr ""
+
+#: inc/theme-info.php:351
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/theme-info.php:356
+msgid "Breadcrumb Display"
+msgstr ""
+
+#: inc/theme-info.php:361
+msgid "Footer Editor"
+msgstr ""
+
+#: inc/theme-info.php:366
+msgid "Related Posts"
+msgstr ""
+
+#: inc/theme-info.php:371
+msgid "Header Slider"
+msgstr ""
+
+#: inc/theme-info.php:376
+msgid "Testimonial Slider"
+msgstr ""
+
+#: inc/theme-info.php:381
+msgid "Footer Columns Widgets"
+msgstr ""
+
+#: inc/theme-info.php:386
+msgid "4 Extra PRO Demos"
+msgstr ""
+
+#: inc/theme-info.php:391
+msgid "Priority Support"
+msgstr ""
+
+#: inc/theme-info.php:398
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/theme-info.php:411
+msgid " Please "
+msgstr ""
+
+#: inc/theme-info.php:411
+msgid "rate our theme"
+msgstr ""
+
+#: inc/theme-info.php:412
+msgid ""
+"★★★★★ to help us spread the word. Thank you from the Spiracle Themes team!"
+msgstr ""
+
+#: own-store-pro/class-customize.php:74
+msgid "Own Store Pro"
+msgstr ""
+
+#: own-store-pro/class-customize.php:75
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: template-parts/page/content-page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/page/content-page.php:29
+#, php-format
+msgid "Edit %s"
+msgstr ""

@@ -1,0 +1,193 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	border-color: #ccc #bbb #aaa;
+}
+.main-navigation ul li:focus > ul,
+.main-navigation ul li.focus > ul {
+	opacity: 1;
+    -webkit-transform: translateY(0px) translateZ(0);
+    transform: translateY(0px) translateZ(0);
+    visibility: visible;
+}
+.header-icons ul li a:focus, .header-info ul li a:focus {
+    color: #017bbd;
+}
+.site-header.layout3 #site-navigation ul li a:focus, #site-navigation ul li.current-menu-item a, 
+.site-header.layout3 #site-navigation ul li.current a {
+    color: #017bbd;
+}
+#site-navigation ul li a:focus, #site-navigation ul li.current-menu-item a, 
+#site-navigation ul li.current a {
+    color: #017bbd;
+}
+#site-navigation ul#primary-menu > li.menu-item-has-children:focus > a:after, #site-navigation #primary-menu ul > li.page_item_has_children:focus > a:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    margin-top: -5px;
+}
+a.slider-button:focus{
+	text-decoration: none;
+    color: #fff;
+    background: #017bbd;
+    border: 2px solid #017bbd;
+    -webkit-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+}
+#plx-slider-section .lSSlideOuter .lSPager.lSpg > li:focus a, 
+#plx-slider-section .lSSlideOuter .lSPager.lSpg > li.active a,
+.testimonial-section .lSSlideOuter .lSPager.lSpg > li:focus a, 
+.testimonial-section .lSSlideOuter .lSPager.lSpg > li.active a{
+	background-color: #017bbd;
+}
+section:focus .section-title:nth-child(even), section:focus .section-title:nth-child(even) {
+    color: #017bbd;
+}
+.about a.read-more:focus {
+    position: relative;
+    border: 2px solid #017bbd;
+    display: block;
+    background: #017bbd;
+    line-height: 1;
+    padding: 13px 20px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    margin-top: 27px;
+    width: 100%;
+    max-width: 170px;
+}
+.service-list .service-detail h3 a:focus {
+    color: #017bbd;
+}
+.portfolio-post-filter .filter:focus:after {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.overflow:focus .hm-port-excerpt {
+    opacity: 1;
+    visibility: visible;
+}
+.overflow:focus figure img {
+    transform: scale(1.03) translateZ(0);
+    -webkit-transform: scale(1.2) translateZ(0);
+    -moz-transform: scale(1.2) translateZ(0);
+}
+.callto .callto-button:focus {
+    background-color: #EEE;
+    color: #333;
+    box-shadow: 0 10px 30px -5px rgba(10, 16, 34, .2);
+    border-color: transparent;
+    -webkit-transform: scale(1.05);
+    transition: all .2s ease-in-out;
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.team-thumb.active img,
+.team-thumb img:focus {
+    filter: none;
+    -webkit-filter: none;
+}
+.blog-section .blog-image figure:focus img, 
+.main-blog-left .wp-img:focus img {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    transform:scale(1.2);
+}
+.blog-section .blogsinfo .blog-info a:focus,
+.blog-section .blog-info ul li a:focus span {
+    color:#017bbd;
+}
+.footer-widgetswrap .block.footer-widget ul a:focus {
+    color:#017bbd;
+}
+.bottom-footer .footer-left .site-info a:focus {
+    color:#017bbd;   
+}
+.bottom-footer .footer-right ul a:focus {
+    color:#017bbd;
+}
+#wpop-top:focus {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.content-blog .main-blog-right .btn-readmore a:focus{
+	padding-left: 15px;
+}
+.content-blog .main-blog-right .title-text:focus,
+.content-blog .main-blog-right .btn-readmore a:focus{
+	color: #017bbd;
+}
+.content-blog .main-blog-left .wp-img a img:focus{
+	transform: scale(1.1);
+}
+.content-blog .main-blog-right .metadata li:focus a,
+.content-blog .metadata .comment:focus{
+	color: #017bbd;
+}
+.nav-links a:focus,.backtohome a:focus{
+	background: #fff;
+	color: #017bbd;
+	border-color: #017bbd;
+   
+}
+.comment-left a:focus, 
+.comment-left a:focus:before, 
+.comment-wrapper .media-body a:focus {
+   color: #017bbd;
+}
+.widget-area ul li:focus > a,
+.widget_recent_entries ul li:focus > a,
+.widget_pages ul li:focus > a,
+.widget_meta ul li:focus > a,
+.widget_archive ul li:focus > a,
+.widget_categories ul li:focus > a,
+.widget_nav_menu ul li:focus > a,
+.widget_recent_comments ul li:focus > a,
+.widget_recent_comments ul li .comment-author-link:focus a {
+	transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    color: #017bbd;
+}
+.widget-area ul li:focus > a:before,
+.widget_recent_entries ul li:focus > a:before,
+.widget_pages ul li:focus > a:before,
+.widget_meta ul li:focus > a:before,
+.widget_archive ul li:focus > a:before,
+.widget_categories ul li:focus > a:before,
+.widget_nav_menu ul li:focus > a:before {
+	color: #017bbd;
+}
+.widget_search .search-form .search-submit:focus{
+	background: #03A9F4;
+}
+a.read-more:focus {
+    background: #017bbd;
+    color: #fff;
+    -webkit-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+}
+.wplx-sub-toggle:focus{
+    cursor: pointer;
+}
+.wpop-shopping-cart:focus .widget_shopping_cart {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+.search-wrap .search-icon:focus,
+.wpop-shopping-cart:focus,
+.full-search-container .closebtn:focus {
+    outline: 1px solid;
+}
+

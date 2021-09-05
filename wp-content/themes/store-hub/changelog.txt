@@ -1,0 +1,19 @@
+=== v1.0.5 ===
+- Fixed sale text issue
+- Fixed out of stock design issue
+
+=== v1.0.4 ===
+- Fixed mobile menu issue
+
+=== v1.0.3 ===
+- Fixed sanitization issues
+- Removed default values from theme settings
+
+=== v1.0.2 ===
+- Fixed WooCommerce issue
+
+=== v1.0.1 ===
+- Fixed responsive issue
+
+=== v1.0.0 ===
+- Initial Release

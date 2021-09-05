@@ -1,0 +1,126 @@
+=== 2.0.6 ===
+* Fixed parallax nav menu for mobile
+
+=== 2.0.5 ===
+* Fixed sale tag issue
+
+=== 2.0.4 ===
+* Fixed Sticky sidebar issue
+* Compatibility check with WordPress version 5.6
+
+=== 2.0.3 ===
+* Fixed mobile menu issue
+
+=== 2.0.2 ===
+* Minor Bugs fixed
+
+=== 2.0.1 ===
+* Child theme compatible
+* Added mini cart option
+* Added single product option
+
+=== 2.0.0 ===
+* Added Preloader Option
+* Added Inner page Padding Option
+* Changed Mobile Navigation
+* Added Archive Grid Layout
+* Changed Screenshot Image
+* Premium Addon Compatible
+
+
+=== 1.1.9 ===
+* Fixed Breadcrumb banner issues
+* Added Footer color options
+
+
+=== 1.1.8 ===
+* Compatible with ultra companion plugin
+* Script optimized 
+* Add post format support
+* Add Gutenberg support
+* Refined woocommerce pages
+
+
+=== 1.1.7 ===
+* Removed Demo files
+* Minor CSS issue fixes
+
+
+=== 1.1.6 ===
+* Top Header mailto issue fixed
+* Added target blank to social icons
+
+
+=== 1.1.5 ===
+* Responsive Menu Js Issue Fixed
+* Slider width issue Fixed
+
+
+=== 1.1.4 ===
+* Responsive Issues Fixed
+
+
+=== 1.1.3 ===
+* Added welcome section
+* Added .org link for demo importer plugin
+* Minor CSS bug fixed
+
+
+=== 1.1.2 ===
+* Added support for Gutenberg wide images
+* Minor CSS bug fixed
+
+
+=== 1.1.1 ===
+* Added TGMPA
+* Added Smooth Scroll
+* Added Pagebuilder(Elementor) compatible
+* Added Demo import feature
+* Added Demo Layouts
+* Minor Css issue fixes
+
+
+=== 1.1.0 ===
+* Added TGMPA
+* Added Header layout options
+* Added Sticky Header option
+* Added Enable Disable option for cart and search icon
+* Changed Search Layout
+* Minor Css issue fixes
+
+
+=== 1.0.8 ===
+* Changed screenshot
+* Minor bug fixes
+
+=== 1.0.7 ===
+* Minor bug fixes
+
+
+=== 1.0.6  ===
+* Minor bug fixes
+
+=== 1.0.5 ===
+* Minor bug fixes
+
+=== 1.0.4 ===
+* Changed theme screenshot
+* Minor bug fixes
+
+
+=== 1.0.3 ===
+* Php warning issue fixed
+* Background options for homepage sections code refined.
+
+=== 1.0.2 ===
+*Added section font color option
+*Added overlay for section background images
+*Changed theme screenshot
+*Fixed some minor css bugs
+
+=== 1.0.1 ===
+* Screenshot added
+* Minor Bug Fix
+
+=== 1.0.0 ===
+* Initial release
